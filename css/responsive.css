@@ -95,14 +95,14 @@
     .slider_item-container .slider_item-detail {
 
         text-align: center;
-        margin-top: 10rem;   
+        margin-top: 9rem;   
         display: flex;
     }
 
     
 
     #fruit h2 {
-        margin-top: 3rem;
+        margin-top: 7rem;
     }
 
    .layout_padding{
@@ -185,6 +185,9 @@
         display: none;
     }
     .collapse, .navbar-collapse, .navbar-mobile{
+        display: none;
+    }
+    .mobile-menu-toggle{
         display: none;
     }
 
