@@ -7,6 +7,7 @@
         padding: 50px 0;
 
     }
+   
 
    
    
@@ -96,9 +97,10 @@
     .slider_item-container .slider_item-detail {
 
         text-align: center;
-        margin-top: 8rem;   
-
+        margin-top: 10rem;   
     }
+
+    
 
     #fruit h2 {
         margin-top: 3rem;
@@ -116,6 +118,7 @@
     }
     .slider_item-detail h1{
         font-size: 2.3rem;
+        margin-top: 7rem;
     }
 
     .slider_item-detail h1 span{
@@ -145,6 +148,15 @@
         text-align: center;
       }
       .slider_item-detail p{
+        display: none;
+      }
+
+      .background-video{
+        max-width: 600px;
+        opacity: 0.4;
+      }
+
+      .bg-video-lg{
         display: none;
       }
 }
