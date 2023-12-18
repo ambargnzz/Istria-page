@@ -1048,6 +1048,11 @@ pre code {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
+    /*! margin-top: 11rem; */
+    /*! display: flex; */
+    /*! justify-content: start; */
+    /*! flex: ; */
+    margin-top: 8rem;
   }
   .col-md-9 {
     -ms-flex: 0 0 75%;
