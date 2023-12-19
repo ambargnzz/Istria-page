@@ -522,9 +522,10 @@ a:hover, a:focus {
 
 
 .fruit_detail-box .custom_dark-btn{
-    border: 1px solid rgb(252, 93, 53);
+    border: 1px solid black;
     border-radius: 2rem;
-    color: black;
+    color: #fc5d35bf;
+    margin-left: 0.4rem;
 }
 
 .fruit_detail-box .custom_dark-btn:hover{
