@@ -490,8 +490,6 @@ a:hover, a:focus {
 }
 
 
-
-
 [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos]{
   transition-duration: 0.5s;
 }
