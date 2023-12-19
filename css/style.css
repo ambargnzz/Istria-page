@@ -520,7 +520,7 @@ a:hover, a:focus {
 
 
 .fruit_detail-box .custom_dark-btn{
-    border: 1px solid #fc5d35f7;
+    border: 1px solid black;
     border-radius: 2rem;
     color: black;
     margin-left: 0.4rem;
@@ -533,5 +533,9 @@ a:hover, a:focus {
 }
 
 .fruit_detail-box .price-pizza{
+  color: rgb(252, 93, 53);
+}
+
+.fruit_detail-box h3{
   color: rgb(252, 93, 53);
 }
