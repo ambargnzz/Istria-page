@@ -24,6 +24,9 @@
     .service_section .card-deck .card {
         margin-bottom: 25px;
     }
+    .fruit_detail-box .price-pizza{
+        display: none;
+    }
     
 }
 
@@ -34,6 +37,9 @@
         width: 85%;
         margin: 65px auto;
 
+    }
+    .fruit_detail-box .price-pizza{
+        display: none;
     }
 
     .slider_section .custom_carousel-control {
@@ -97,6 +103,17 @@
         text-align: center;
         margin-top: 9rem;   
         display: flex;
+    }
+
+    /* .fruit_detail-box .ingredient-pizza, .price-pizza{
+        display: block;
+    } */
+
+    .fruit_detail-box .price-pizza{
+        display: none;
+    }
+    .fruit_section .custom_heading{
+        display: none;
     }
     
     .tasty_section h2 {
@@ -197,6 +214,8 @@
     .slider_item-container{
         display: flex;
     }
+
+   
     .slider_item-detail{
         margin-top: 5rem;
     }
@@ -207,6 +226,9 @@
         display: none;
     }
     .mobile-menu-toggle{
+        display: none;
+    }
+    .fruit_detail-box .custom_dark-btn{
         display: none;
     }
 
@@ -222,6 +244,10 @@
 
     .slider_item-detail{
         margin-top: 9rem;
+    }
+
+    .fruit_detail-box .price-pizza{
+        display: none;
     }
 }
 
