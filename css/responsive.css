@@ -105,6 +105,7 @@
         margin-top: 9rem;   
         display: flex;
     }
+  
 
 
 
@@ -131,7 +132,7 @@
       /* }  */
 
     .service_section .boton-verPizza{
-        margin-top: 1rem;
+        display: none;
     }
 
     /* .fruit_detail-box .ingredient-pizza, .price-pizza{
@@ -271,7 +272,13 @@
         margin-top: 9rem;
     }
 
+
+   
     .fruit_detail-box .price-pizza{
+        display: none;
+    }
+
+    .boton-verPizza{
         display: none;
     }
 }
