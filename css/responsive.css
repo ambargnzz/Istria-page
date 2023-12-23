@@ -24,9 +24,6 @@
     .service_section .card-deck .card {
         margin-bottom: 25px;
     }
-    .fruit_detail-box .price-pizza{
-        display: none;
-    }
     
 }
 
@@ -42,9 +39,9 @@
 
 
     
-    .fruit_detail-box .price-pizza{
+    /* .fruit_detail-box .price-pizza{
         display: none;
-    }
+    } */
 
     .slider_section .custom_carousel-control {
 
@@ -139,9 +136,9 @@
         display: block;
     } */
 
-    .fruit_detail-box .price-pizza{
+    /* .fruit_detail-box .price-pizza{
         display: none;
-    }
+    } */
     .fruit_section .custom_heading{
         display: none;
     }
@@ -255,8 +252,9 @@
         display: none;
     }
     .fruit_detail-box .custom_dark-btn{
-        display: none;
+        margin-left: 0;
     }
+
 
   }
 
@@ -274,9 +272,9 @@
 
 
    
-    .fruit_detail-box .price-pizza{
+    /* .fruit_detail-box .price-pizza{
         display: none;
-    }
+    } */
 
     .boton-verPizza{
         display: none;
