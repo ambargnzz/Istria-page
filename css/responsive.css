@@ -104,7 +104,20 @@
         display: flex;
     }
     .layout-padding-entrantes h3{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        width: 15rem;
+        
+    }
+    .layout-padding-entrantes{
+        padding: 16px 0px;
+    }
+
+    .texto-precio-entrantes{
+        display: flex;
+     justify-content: space-evenly;
+        /*! width: 29px; */
+        /*! width: 57%; */
+}
     }
     .layout_padding2 .card-deck{
         display: none;
@@ -217,7 +230,7 @@
       .bg-video-lg{
         display: none;
       }
-}
+
 
 @media (max-width: 480px) {}
 

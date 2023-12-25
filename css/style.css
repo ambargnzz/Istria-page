@@ -82,9 +82,10 @@ body {
 .custom_heading {
   /* text-align: center; */
   font-weight: bold;
-  margin-top: 3rem;
+  margin-top: 8rem;
   /*! text-align: center; */
   text-align: center;
+  
 }
 
 .custom_heading-text {
@@ -606,6 +607,7 @@ a:hover, a:focus {
 .texto-precio-entrantes{
   display: flex;
   justify-content: space-between;
+
 }
 
 .texto-precio-entrantes .price-entrantes .custom_dark-btn{
@@ -616,9 +618,10 @@ a:hover, a:focus {
 
 .texto-precio-entrantes h3{
   font-size: 1.6rem;
+  color: black;
 }
 
+
 .custom-heading-entrantes{
-  margin-top: 7rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
