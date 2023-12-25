@@ -582,6 +582,23 @@ a:hover, a:focus {
   padding: 4px px;
 }
 
-.card-entrante{
 
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(252, 93, 53);
+}
+
+.header-section-carta .nav-link{
+  color: black;
+}
+
+.header-section-carta .nav-link:hover{
+  color: rgb(252, 93, 53);
+}
+
+.custom-heading-carta{
+  margin-top: 7rem;
 }
