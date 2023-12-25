@@ -311,7 +311,7 @@ a:hover, a:focus {
   cursor: pointer;
   border: none;
   border-radius: 0px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
 }
 
 .service_section .card:hover::after {
