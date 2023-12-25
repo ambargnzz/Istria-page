@@ -283,7 +283,15 @@ a:hover, a:focus {
 
 .service_section .card .card-img-top {
   width: 50%;
-  margin: 2rem auto;
+  margin: 1rem auto;
+}
+
+.service_section .card-entrante .card-img-entrante{
+  width: 22%;
+}
+
+.mobiles-card-deck{
+  margin-bottom: 35px;
 }
 
 .service_section .card {
@@ -572,4 +580,8 @@ a:hover, a:focus {
 
 .raciones .custom_dark-btn{
   padding: 4px px;
+}
+
+.card-entrante{
+
 }

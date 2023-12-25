@@ -105,6 +105,10 @@
     .layout_padding2 .card-deck{
         display: none;
     }
+
+    .entrantes-card{
+        width: 100;
+    }
   
 
 
