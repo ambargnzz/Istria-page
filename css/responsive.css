@@ -15,11 +15,11 @@
         background-position: center;
     }
 
-    .service_section .card-deck {
+    /* .service_section .card-deck {
 
         flex-direction: column;
 
-    }
+    } */
 
     .service_section .card-deck .card {
         margin-bottom: 25px;
@@ -101,6 +101,9 @@
         text-align: center;
         margin-top: 9rem;   
         display: flex;
+    }
+    .layout_padding2 .card-deck{
+        display: none;
     }
   
 
@@ -222,6 +225,11 @@
 @media only screen and (min-width: 1024px) {
     .slider_item-container{
         display: flex;
+
+    }
+
+    .mobiles-card-deck{
+        display: none;
     }
 
     .custom_heading{

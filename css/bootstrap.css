@@ -39,6 +39,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /*! display: ; */
 }
 
 html {
@@ -383,7 +384,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.rem;
 }
 
 h6, .h6 {
@@ -4675,9 +4676,12 @@ input[type="button"].btn-block {
 
 .card-deck {
   display: -ms-flexbox;
-  display: flex;
+  /*! display: flex; */
   -ms-flex-direction: column;
-  flex-direction: column;
+  /*! flex-direction: column; */
+  width: 100%;
+  /*! display: block ruby; */
+  display: flex;
 }
 
 .card-deck .card {

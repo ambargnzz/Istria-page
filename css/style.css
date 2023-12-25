@@ -167,6 +167,7 @@ a:hover, a:focus {
 .custom_nav-container {
   z-index: 99999;
   padding: 15px 0px;
+  justify-content: center;
 }
 
 .custom_nav-container .navbar-toggler {
