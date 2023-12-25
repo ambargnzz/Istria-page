@@ -103,6 +103,9 @@
         margin-top: 9rem;   
         display: flex;
     }
+    .layout-padding-entrantes h3{
+        font-size: 1.4rem;
+    }
     .layout_padding2 .card-deck{
         display: none;
     }

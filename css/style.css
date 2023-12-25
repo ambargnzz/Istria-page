@@ -531,10 +531,10 @@ a:hover, a:focus {
 
 
 .fruit_detail-box .custom_dark-btn{
-    border: 1px solid black;
-    border-radius: 2rem;
-    color: black;
-    margin-left: 0.4rem;
+      border: 1px solid black;
+      border-radius: 2rem;
+      color: black;
+      margin-left: 0.4rem;
 }
 
 .fruit_detail-box .custom_dark-btn:hover{
@@ -601,4 +601,24 @@ a:hover, a:focus {
 
 .custom-heading-carta{
   margin-top: 7rem;
+}
+
+.texto-precio-entrantes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-precio-entrantes .price-entrantes .custom_dark-btn{
+  padding: 5px 9px;
+  width: 100px;
+  height: 34px;
+}
+
+.texto-precio-entrantes h3{
+  font-size: 1.6rem;
+}
+
+.custom-heading-entrantes{
+  margin-top: 7rem;
+  margin-bottom: 2rem;
 }
