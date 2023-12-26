@@ -103,6 +103,11 @@
         margin-top: 9rem;   
         display: flex;
     }
+
+    .detail-risotto-box .custom_dark-btn{
+        padding: 5px 9px;    
+    }
+
     .layout-padding-entrantes h3{
         font-size: 1.3rem;
         width: 15rem;
