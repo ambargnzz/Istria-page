@@ -1053,7 +1053,7 @@ pre code {
     /*! display: flex; */
     /*! justify-content: start; */
     /*! flex: ; */
-    margin-top: 8rem;
+    margin-top: 1rem;
   }
   .col-md-9 {
     -ms-flex: 0 0 75%;
