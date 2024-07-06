@@ -1,0 +1,351 @@
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding: 50px 0;
+
+    }
+       
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container .nav_search-btn {
+        background-position: center;
+    }
+
+    /* .service_section .card-deck {
+
+        flex-direction: column;
+
+    } */
+
+    .service_section .card-deck .card {
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .slider_img-box {
+
+        width: 85%;
+        margin: 65px auto;
+
+    }
+
+
+
+    
+    /* .fruit_detail-box .price-pizza{
+        display: none;
+    } */
+
+    .slider_section .custom_carousel-control {
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 105px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .fruit_section .fruit_detail-box {
+
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .fruit_detail-box>div {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact_section {
+        background-size: 105px;
+    }
+
+    .contact_section input {
+
+        background-color: transparent;
+
+    }
+
+    .info_section .col-md-3 {
+        text-align: center;
+    }
+
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+
+        margin-bottom: 35px;
+    }
+
+   
+
+  
+}
+
+
+/* Moviles */
+@media (max-width: 576px) {
+    .slider_item-container .slider_item-detail {
+
+        text-align: center;
+        margin-top: 9rem;   
+        display: flex;
+    }
+
+    .detail-risotto-box .custom_dark-btn{
+        padding: 5px 9px;    
+    }
+
+    .layout-padding-entrantes h3{
+        font-size: 1rem;
+        width: 15rem;
+        
+    }
+    .layout-padding-entrantes{
+        padding: 16px 0px;
+    }
+
+    .texto-precio-entrantes{
+        display: flex;
+     justify-content: space-evenly;
+        /*! width: 29px; */
+        /*! width: 57%; */
+}
+    }
+    .layout_padding2 .card-deck{
+        display: none;
+    }
+
+    .entrantes-card{
+        width: 100;
+    }
+  
+    .header-laptop{
+        display: none;
+    }
+
+
+
+
+    /* .tasty_section h2 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        color: black ;
+        text-transform: uppercase;
+        font-size: 5rem;
+      }
+      .tasty_section {
+        width: 100%;
+        height: 300px;
+        /* background-image: url("../images/IMG_1945.jpeg"); */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        opacity: 0.8; */
+        /* background-color: black; */
+        /* justify-content: center;
+        align-items: center; */
+      /* }  */
+
+    .service_section .boton-verPizza{
+        display: none;
+    }
+
+    /* .fruit_detail-box .ingredient-pizza, .price-pizza{
+        display: block;
+    } */
+
+    /* .fruit_detail-box .price-pizza{
+        display: none;
+    } */
+    /* .fruit_section .custom_heading{
+        display: none;
+    } */
+    
+    
+    
+
+    #fruit h2 {
+        margin-top: 7rem;
+    }
+
+   .layout_padding{
+    
+    padding: 79px 0px;
+   }
+
+    .slider_item-container .slider_item-detail .d-flex {
+
+        justify-content: center;
+
+    }
+    .slider_item-detail h1{
+        font-size: 2.3rem;
+        margin-top: 2rem;
+    }
+
+    .slider_item-detail h1 span{
+        color: red;
+    }
+
+    .custom_heading {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .finally-pizza-carta{
+        margin-top: 0;
+      }
+
+      .layout_padding-top{
+        padding-top: 1rEM;
+      }
+
+      .header_section{
+        height: 4rem;
+      }
+
+      .header_section span{
+        font-family: 1rem;
+        font-weight: normal;
+        text-align: center;
+      }
+      .slider_item-detail p{
+        display: none;
+      }
+
+      .background-video{
+        /*! max-width: 600px; */
+        opacity: 0.4;
+      }
+
+      .bg-video-lg{
+        display: none;
+      }
+
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
+
+/* Escritorio */
+@media only screen and (min-width: 1024px) {
+    .slider_item-container{
+        display: flex;
+
+    }
+
+    .slider_item-detail h1{
+        font-size: 5rem;
+    }
+
+    /* .mobiles-card-deck{
+        display: none;
+    } */
+
+    .custom_heading{
+        font-size: 3rem;
+    }
+    .card-body .card-title{
+        font-size: 1.6rem;
+    }
+
+    .fruit_detail-box p{
+        font-size: 1.5rem;
+      }
+
+      .fruit_detail-box h3{
+        font-size: 2.3rem;
+      }
+   
+    .slider_item-detail{
+        margin-top: 5rem;
+     }
+
+     .nav{
+        font-size: 1.2rem;
+     }
+     .slider_item-detail h1{
+        text-align: center;
+     }
+
+     .slider_item-container .slider_item-detail .d-flex{
+        justify-content: center;
+        margin-right: 66px;
+     }
+
+
+     .card-img-risotto{
+        width: 25%;
+     }
+     .card-img-top{
+        width: 25%;
+     }
+     .card{
+        flex: none !important;
+        width: 28rem;
+     }
+     .card-deck{
+        justify-content: center;
+     }
+     .card-entrante{
+        width: 80%;
+        margin: auto;
+     }
+
+
+
+
+
+
+
+
+
+  }
+
+
+  /* Estilos para iPhone 13 Pro Max y modelos similares */
+  @media only screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+    .slider_item-detail{
+        margin-top: 9rem;
+    }
+
+
+   
+    /* .fruit_detail-box .price-pizza{
+        display: none;
+    } */
+
+    .boton-verPizza{
+        display: none;
+    }
+}
+
+
