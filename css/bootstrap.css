@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -39,7 +39,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /*! display: ; */
 }
 
 html {
@@ -372,7 +371,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h3, .h3 {
@@ -384,7 +383,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.rem;
+  font-size: 1.25rem;
 }
 
 h6, .h6 {
@@ -1049,11 +1048,6 @@ pre code {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
-    /*! margin-top: 11rem; */
-    /*! display: flex; */
-    /*! justify-content: start; */
-    /*! flex: ; */
-    margin-top: 1rem;
   }
   .col-md-9 {
     -ms-flex: 0 0 75%;
@@ -4585,12 +4579,13 @@ input[type="button"].btn-block {
 }
 
 .card-body {
-  padding: 0.5rem;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
-  margin-top: 3px;
 }
 
 .card-subtitle {
@@ -4600,7 +4595,6 @@ input[type="button"].btn-block {
 
 .card-text:last-child {
   margin-bottom: 0;
-  margin-bottom: 1rem;
 }
 
 .card-link:hover {
@@ -4676,12 +4670,9 @@ input[type="button"].btn-block {
 
 .card-deck {
   display: -ms-flexbox;
-  /*! display: flex; */
-  -ms-flex-direction: column;
-  /*! flex-direction: column; */
-  width: 100%;
-  /*! display: block ruby; */
   display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .card-deck .card {
